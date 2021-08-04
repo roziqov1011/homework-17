@@ -556,7 +556,7 @@ footer {
 .footer-box {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: baseline;
 }
 
 
@@ -581,6 +581,7 @@ footer {
   width: 339px;
   font-size: 16px;
   line-height: 24px;
+  margin-block-end: 0em;
   color: #FFFFFF;
 }
 
@@ -670,6 +671,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   width: 150px;
+  transform: translateY(17px);
 }
 
 .footer-link__icon {
